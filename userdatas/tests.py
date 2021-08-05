@@ -18,5 +18,5 @@ class EntryNode(DjangoObjectType):
 class Query(graphene.ObjectType):
     users = graphene.List(UserdataNode)
     user = graphene.Field(UserdataNode, id=graphene.Int())
-    entry = graphene.List(EntryNode, id=graphene.Int())
+    entry = graphene.List(EntryNode, uid=graphene.Int())
     
