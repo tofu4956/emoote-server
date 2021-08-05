@@ -1,1 +1,3 @@
 emoote_server/local_settings.py
+*.pyc
+__pycache__
